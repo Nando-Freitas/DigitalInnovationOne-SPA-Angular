@@ -44,7 +44,7 @@ json-server --watch db.json
 
 Os componentes foram divididos entre as pastas **/shared** e **/core**, a primeira sendo responsável por guardar os componentes que aparecerão nas duas telas e a outra destinada a guardar os componentes de lista e de formulário.
 
-## Serviço
+### Serviço
 
 <hr>
 
