@@ -4,6 +4,10 @@
 
 Single Page Application Angular destinada a listagem, cadastro e remoção de músicas. A aplicação foi feita usando a dependência bootstrap para estilizar e é alimentada com um mock de servidor criado com a dependência json-server.
 
+### Vídeo Explicativo
+<hr>
+[!Youtube](https://youtu.be/xkNHZIF7OAY)
+
 ### Executar aplicação completa
 
 <hr>
