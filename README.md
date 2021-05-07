@@ -9,14 +9,19 @@ Faça a instalação das dependências:
 ```
 	npm install
 ```
+
 Abra uma aba do seu terminal e execute a aplicação angular:
+
 ```
 	ng serve -o
 ```
+
 Agora abra outra aba e inicie o mock do servidor para ficar disponível as requisições mandadas pelo nosso front-end.
+
 ```
 	json-server --watch db.json
 ```
+
 ### Tecnologias
 <hr>
 * Angular
@@ -37,6 +42,7 @@ O serviço que temos em **musica.service.ts** concentra os métodos que farão a
 
 ### Autor
 <hr>
+
 ```
 	Fernando Santos De Freitas
 ```
