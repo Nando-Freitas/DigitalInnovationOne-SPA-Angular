@@ -1,0 +1,64 @@
+{
+  "musicas": [
+    {
+      "id": 1,
+      "titulo": "Wonderwall",
+      "autor": "Oasis",
+      "compositor": "Noel Gallagher",
+      "ano": "1995",
+      "genero": "Alternative/Indie",
+      "pais": "US",
+      "imagem": "assets/oasis-wonderwall.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Let It Be",
+      "autor": "The Beatles",
+      "compositor": "Paul Mccartney / John Lennon",
+      "ano": "1968",
+      "genero": "Rock",
+      "pais": "UK",
+      "imagem": "assets/let-it-be.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Sunday Bloody Sunday",
+      "autor": "U2",
+      "compositor": "U2",
+      "ano": "1987",
+      "genero": "Rock",
+      "pais": "Ireland",
+      "imagem": "assets/sunday-bloody-sunday.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Say Say Say",
+      "autor": "Paul Mccartney",
+      "compositor": "Michael Joseph Jackson / Paul James McCartney",
+      "ano": "2008",
+      "genero": "Rock",
+      "pais": "UK",
+      "imagem": "assets/say-say-say.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Come as you are",
+      "autor": "Nirvana",
+      "compositor": "Kurt Cobain",
+      "ano": "1991",
+      "genero": "Alternative/Indie",
+      "pais": "US",
+      "imagem": "assets/nevermind.jpg"
+    },
+    {
+      "titulo": "Viva La Vida",
+      "autor": "Coldplay",
+      "compositor": "Berryman Guy Rupert / Buckland Jonathan Mark / Champion William / Martin Christopher Anthony John",
+      "ano": 2008,
+      "genero": "Alternative",
+      "pais": "UK",
+      "imagem": "assets/viva-la-vida.jpg",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<h2>Cadastre uma música</h2>
+
+<form #musica="ngForm" (ngSubmit)="salvar(musica)" class="forms-cad-musica">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Título</label>
+        <input [(ngModel)]="musica.titulo" name="titulo" type="text" class="form-control" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Autor</label>
+        <input [(ngModel)]="musica.autor" name="autor" type="text" class="form-control" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Compositor</label>
+        <input [(ngModel)]="musica.compositor" name="compositor" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Ano</label>
+        <input [(ngModel)]="musica.ano" name="ano" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <label for="exampleInputEmail1" class="form-label">Gênero</label>
+      <div class="input-group mb-3">
+          <select [(ngModel)]="musica.genero" name="genero" class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                <option selected>Gênero...</option>
+                <option value="Rock">Rock</option>
+                <option value="Alternative">Alternative</option>
+                <option value="Indie">Indie</option>
+                <option value="Funk">Funk</option>
+                <option value="Pop">Pop</option>
+                <option value="Sertanejo">Sertanejo</option>
+          </select>
+      </div>
+      <label for="exampleInputEmail1" class="form-label">País</label>
+      <div class="input-group mb-3">
+          <select class="form-select" id="inputGroupSelect03" [(ngModel)]="musica.pais" name="pais" aria-label="Example select with button addon">
+                <option selected>País...</option>
+                <option value="Brasil">Brasil</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+                <option value="Alemanha">Alemanha</option>
+                <option value="França">França</option>
+                <option value="Espanha">Espanha</option>
+          </select>
+      </div>
+      <label for="exampleInputEmail1" class="form-label">Capa CD</label>
+      <div class="input-group mb-5">
+          <input [(ngModel)]="musica.imagem" name="imagem" type="file" class="form-control" id="inputGroupFile02">
+      </div>
+
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>

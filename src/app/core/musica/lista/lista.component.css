@@ -1,0 +1,42 @@
+.tabela-musicas{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 12px;
+}
+
+.tabela-musicas tr td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tabela-musicas tr th{
+    text-align: center;
+    background-color: #d9d9d9;
+    color: #000000;
+}
+
+.container-btn-cad{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #000000;
+}
+
+.container-btn-cad p{
+    float: left;
+}
+
+.btn-cad-musica{
+    width: 20%;
+    background-color: #d9d9d9!important;
+    border: none;
+    color: #000000;
+    float: right;
+    margin-bottom: 5%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5%;
+}

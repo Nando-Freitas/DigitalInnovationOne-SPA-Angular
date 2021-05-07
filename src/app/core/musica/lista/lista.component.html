@@ -1,0 +1,35 @@
+<h2>Sua biblioteca de músicas</h2>
+
+<div class="container-btn-cad">
+    <p><b>Cadastre uma música:</b></p>
+    <a href="cadastro">
+    <button type="button" class="btn btn-primary btn-cad-musica"><b>Adicionar</b></button>
+    </a>
+</div>
+
+<table class="table mb-5 col-8 tabela-musicas">
+  <thead>
+    <tr>
+      <th scope="col">{{musicLabels[0]}}</th>
+      <th scope="col">{{musicLabels[1]}}</th>
+      <th scope="col">{{musicLabels[2]}}</th>
+      <th scope="col">{{musicLabels[3]}}</th>
+      <th scope="col">{{musicLabels[4]}}</th>
+      <th scope="col">{{musicLabels[5]}}</th>
+      <th scope="col">{{musicLabels[6]}}</th>
+      <th scope="col">{{musicLabels[7]}}</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let musica of filteredMusics">
+    <tr>
+        <td>{{musica.titulo}}</td>
+        <td>{{musica.autor}}</td>
+        <td>{{musica.compositor}}</td>
+        <td>{{musica.ano}}</td>
+        <td>{{musica.genero}}</td>
+        <td>{{musica.pais}}</td>
+        <td><img [src]="musica.imagem" width="50" height="50"></td>
+        <td><button (click)="deletar(musica.id)" type="button" class="btn btn-danger">Deletar</button></td>
+    </tr>
+  </tbody>
+</table>
