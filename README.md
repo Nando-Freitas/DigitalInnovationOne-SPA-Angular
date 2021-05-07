@@ -2,7 +2,7 @@
 <img src="screen.png"/>
 <hr>
 
-Single Page Application Angular destinada a listagem, cadastro e remoção de músicas. A Aplicação foi feita usando a dependência bootstrap para estilizar e é alimentada com um mock de servidor criado com a dependência json-server.
+Single Page Application Angular destinada a listagem, cadastro e remoção de músicas. A aplicação foi feita usando a dependência bootstrap para estilizar e é alimentada com um mock de servidor criado com a dependência json-server.
 
 ### Executar aplicação completa
 
@@ -11,19 +11,19 @@ Single Page Application Angular destinada a listagem, cadastro e remoção de m�
 Faça a instalação das dependências:
 
 ```
-	npm install
+npm install
 ```
 
 Abra uma aba do seu terminal e execute a aplicação angular:
 
 ```
-	ng serve -o
+ng serve -o
 ```
 
 Agora abra outra aba e inicie o mock do servidor para ficar disponível as requisições mandadas pelo nosso front-end.
 
 ```
-	json-server --watch db.json
+json-server --watch db.json
 ```
 
 ### Tecnologias
@@ -55,5 +55,5 @@ O serviço que temos em **musica.service.ts** concentra os métodos que farão a
 <hr>
 
 ```
-	Fernando Santos De Freitas
+Fernando Santos De Freitas
 ```
